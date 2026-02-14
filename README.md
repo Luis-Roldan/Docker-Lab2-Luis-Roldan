@@ -40,10 +40,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 create next.js file
 
 npx create-next-app@latest my-app --yes
+
 cd my-app
+
 npm run dev
 
 docker commands
 
 docker build -t nextjs-docker-app .
+
 docker run -p 3000:3000 nextjs-docker-app
